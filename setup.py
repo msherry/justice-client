@@ -14,7 +14,7 @@ else:
 
 
 def _get_version():
-    path = os.path.join(PATH_TO_FILE, 'justice.py')
+    path = os.path.join(PATH_TO_FILE, 'justice-client.py')
     version_re = r".*__version__ = '(.*?)'"
     fo = open(path)
     try:
